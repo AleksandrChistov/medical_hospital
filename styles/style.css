@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/Open_Sans/OpenSans-Regular.woff") format("woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/Open_Sans/OpenSans-Bold.woff") format("woff");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat/Montserrat-Medium.woff") format("woff");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat/Montserrat-Bold.woff") format("woff");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato/Lato-Bold.woff") format("woff");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family:"Font Awesome 5 Free";
+  font-style:normal;
+  font-weight:400;
+  font-display:auto;
+  src:url(../fonts/Fontawesome/fa-regular-400.eot);
+  src:url(../fonts/Fontawesome/fa-regular-400.eot?#iefix) format("embedded-opentype"),
+  url(../fonts/Fontawesome/fa-regular-400.woff2) format("woff2"),
+  url(../fonts/Fontawesome/fa-regular-400.woff) format("woff"),
+  url(../fonts/Fontawesome/fa-regular-400.ttf) format("truetype"),
+  url(../fonts/Fontawesome/fa-regular-400.svg#fontawesome) format("svg")
+}
+  
+.far {
+  font-family:"Font Awesome 5 Free";
+  font-weight:400
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.title-h2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: #494949;
+}

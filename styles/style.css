@@ -33,9 +33,135 @@
   font-weight: 400;
 }
 
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
 .title-h2 {
   font-family: Montserrat, sans-serif;
   font-size: 45px;
   font-weight: 700;
   color: #494949;
+}
+
+.header {
+  max-width: 1190px;
+  margin: 30px auto;
+}
+
+.info {
+  border-bottom: 2px solid #ececec;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  max-width: 210px;
+  height: 42px;
+  margin-left: -15px;
+}
+
+.info-list {
+  list-style-type: none;
+  display: flex;
+}
+
+.info-list__item {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  grid-template-rows: 25px;
+  grid-gap: 0 15px;
+  color: #6a6a6a;
+}
+
+.info-list__item:nth-child(n+2) {
+  margin-left: 50px;
+}
+
+.info-list__item:last-child {
+  margin-right: -5px;
+}
+
+.info-list__item-title {
+  font-size: 15px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.info-list__item-description {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  font-size: 15px;
+}
+
+.nav {
+  margin-left: -5px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list,
+.nav-social-list {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-list__item:nth-child(n+2) {
+  margin-left: 25px;
+}
+
+.nav-list__link {
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #6c6c6c;
+}
+
+.nav-list__link_active {
+  color: #262626;
+}
+
+.nav-social-list {
+  margin-right: -5px;
+}
+
+.nav-social-list__item:nth-child(n+2) {
+  margin-left: 25px;
+}
+
+.nav-social-list__link {
+  height: 23px;
+  display: inline-block;
+}
+
+.nav-social-list__link_fb {
+  width: 14px;
+  background: url('../images/social-icon_black.png') left center no-repeat;
+}
+
+.nav-social-list__link_gplus {
+  width: 33px;
+  background: url('../images/social-icon_black.png') -37px center no-repeat;
+}
+
+.nav-social-list__link_vk {
+  width: 26px;
+  background: url('../images/social-icon_black.png') -95px center no-repeat;
+}
+
+.nav-social-list__link_youtube {
+  width: 20px;
+  background: url('../images/social-icon_black.png') -147px center no-repeat;
+}
+
+.nav-social-list__link_in {
+  width: 22px;
+  background: url('../images/social-icon_black.png') -192px center no-repeat;
 }

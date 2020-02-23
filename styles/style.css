@@ -137,7 +137,7 @@
 }
 
 .nav-social-list__link {
-  height: 23px;
+  height: 24px;
   display: inline-block;
 }
 
@@ -164,4 +164,51 @@
 .nav-social-list__link_in {
   width: 22px;
   background: url('../images/social-icon_black.png') -192px center no-repeat;
+}
+
+.big-doctor {
+  position: relative;
+  overflow: hidden;
+}
+
+.big-doctor-info {
+  max-width: 524px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 250px;
+  transform: translateY(-50%);
+}
+
+.big-doctor-info__title {
+  font-family: Montserrat, sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: -2.5px;
+  margin-bottom: 30px;
+  color: #474747;
+}
+
+.big-doctor-info__description {
+  max-width: 422px;
+  margin: 0 auto;
+  font-size: 17px;
+  line-height: 30px;
+  margin-bottom: 40px;
+  color: #3f3f3f;
+}
+
+.big-doctor-info__btn {
+  text-decoration: none;
+  font-family: Lato, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.32px;
+  padding: 15px 28px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  color: #ffffff;
+  box-shadow: -4px 12px 40px rgba(0, 1, 1, 0.2);
+  background-color: #1a9bdc;
+  display: inline-block;
 }

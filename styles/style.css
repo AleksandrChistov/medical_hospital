@@ -46,16 +46,18 @@
 }
 
 .header {
-  max-width: 1190px;
+  max-width: 1250px;
   margin: 30px auto;
+  padding: 0 30px;
 }
 
 .info {
   border-bottom: 2px solid #ececec;
   padding-bottom: 20px;
   margin-bottom: 30px;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: minmax(210px, 1.6fr) auto;
+  grid-gap: 40px;
 }
 
 .logo {
@@ -66,7 +68,8 @@
 
 .info-list {
   list-style-type: none;
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 
 .info-list__item {
@@ -105,8 +108,8 @@
 }
 
 .nav-links {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 5fr 1fr;
 }
 
 .nav-list,
@@ -182,6 +185,10 @@
   transform: translateY(-50%);
 }
 
+.big-doctor-info__img {
+  display: block;
+}
+
 .big-doctor-info__title {
   font-family: Montserrat, sans-serif;
   font-size: 48px;
@@ -213,4 +220,50 @@
   box-shadow: -4px 12px 40px rgba(0, 1, 1, 0.2);
   background-color: #1a9bdc;
   display: inline-block;
+}
+
+.options-list {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.options-list__item {
+  text-align: center;
+  padding: 72px 65px 50px;
+}
+
+.options-list__item:nth-child(1) {
+  background-color: #43b1d2;
+}
+
+.options-list__item:nth-child(2) {
+  background-color: #3fb6c6;
+}
+
+.options-list__item:nth-child(3) {
+  background-color: #3cbbbb;
+}
+
+.options-list__item:nth-child(4) {
+  background-color: #37c3a8;
+}
+
+.options-list__img {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.options-list__title {
+  font-family: Montserrat, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.options-list__description {
+  line-height: 30px;
+  color: #ffffff;
 }
